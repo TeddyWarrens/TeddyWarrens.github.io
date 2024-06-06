@@ -1,0 +1,81 @@
+
+body{
+    background-color: aquamarine;
+    padding: 0px;
+}.header{
+    margin: 0;
+    background-image: url('./portfolio images/background\ image.jpg') ;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    width: 100%;
+    
+  
+    background-size: cover;
+    margin: 0;
+    height: auto;
+}
+.portfolio{
+    font-family: Sacramento,cursive;
+    font-size: 3.5vw;
+    font-weight: 1000;
+    padding-left: 30px;
+    padding-top: 10px;
+}
+.hello{
+    font-family: Jost, sans-serif;
+    font-size: 2vw;
+    padding-left: 5vw;
+    margin-bottom: 0;
+    margin-top: 10px;
+    color: white;
+}
+.name{
+    font-family: Jost;
+    font-weight:bold;
+    font-size: 4vw;
+    margin-top: 2px;
+    padding-left: 4vw;
+    margin-bottom: 0;
+}
+.role{
+margin-top: 0;
+font-family: Montserrat Alternates, sans-serif;
+font-weight: 400;
+padding-left: 4vw;
+font-size: 2.5vw;
+}
+.span{
+    color: rgb(241, 38, 11);
+}
+button{
+    color: rgb(241, 38, 11);
+    margin-bottom: 60px;
+   padding-left: 4.5vw;
+   padding-right: 4.5vw;
+   padding-top: 0.7vw;
+   padding-bottom: 0.7vw;
+    border: none;
+    background-color: white;
+    font-family: Jost, recursive;
+    font-size: 1.3vw;
+    border-radius: 0.2rem;
+    font-weight: bold;
+    box-shadow: 0 3px 12px 0 #000000;
+    animation: example 1s ;
+}
+@keyframes example {
+    0% {background-color: #ffffff;}
+    50% {background-color: #ffffff;}
+    100% {background-color: #ffffff;}
+  }
+button:hover{
+    background-color: black;
+    color: white;
+}
+.b1{
+    margin-left: 4vw;
+    
+}
+.b2{
+    margin-left:2vw;
+}
