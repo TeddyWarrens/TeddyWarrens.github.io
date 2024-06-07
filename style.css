@@ -123,7 +123,7 @@ button:hover{
     align-items: center;
     
 }
-.image{
+.image,.image-3{
     margin: 0.5vw;
     padding: 2vw;
     align-content: center;
@@ -134,15 +134,154 @@ button:hover{
 }
 
 .prof-button{
-    background-color: rgb(255, 160, 19);
+    background-color: rgb(224, 150, 39);
     color: white;
     margin-top: 2vw;
 }
+.profile2{
+    margin-top: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1vw;
+    background-color: black;  
+}
+#skills{
+    color: rgb(224, 150, 39);
+    font-weight: bold;
+    font-size: 2.8vw;
+}
+.text-2{
+    color: white;
+    
+    padding: 3vw;
+    margin: 0.5vw;
+    font-size:1.3vw;
+    font-family: Jost;
+    font-weight: 600;
+    text-align: justify;
+    align-items: center;
+}
+.profile3{
+    margin-top: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1vw;
+    margin-bottom: 2vw;
+    
+    background-color: whitesmoke; 
+}
+.profile4{
+    margin-top: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1vw;
+    margin-bottom: 2vw;
+    
+    background-color: rgb(224, 150, 39);
+}
+.profile5{
+    margin-top: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1vw;
+    margin-bottom: 2vw;
+    background-color: whitesmoke;
+    
+    
+}.profile6,.profile7{
+    margin-top: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1vw;
+    margin-bottom: 2vw;
+   
+    
+}
+.text-3{
+    padding: 3vw;
+    margin: 0.5vw;
+    font-size:1.2vw;
+    font-family: Roboto Mono;
+    font-weight: 600;
+    text-align: justify;
+    align-items: center; 
+}
+.text-4{
+    padding: 3vw;
+    margin: 0.5vw;
+    font-size:1.3vw;
+    font-family: Roboto Mono;
+    font-weight: 600;
+    text-align: justify;
+    align-items: center;  
+    
+}
+.text-5,.text-6,.text-7{
+    padding: 3vw;
+    margin: 0.5vw;
+    font-size:1.3vw;
+    font-family: Roboto Mono;
+    font-weight: 600;
+    text-align: justify;
+    align-items: center;   
+}
+.image-2{
+    margin: 0.5vw;
+    padding: 2vw;
+    align-content: center;
+}
+.image-3,.image-4,.image-5{
+    margin: 0.5vw;
+    padding: 2vw;
+    align-content: center;   
+}
+.image-6,.image-7{
+    margin: 0.5vw;
+    padding: 2vw;
+    align-content: center; 
+    width: 12vw;
+  
+}
+#experience{
+    font-size: 2.8vw;
+    margin-bottom:10vw;
+}
+#cert{
+    color: white;
+    
+}
+#image-6{
+    width: 40vw;
+    border-radius: 0.4rem;
+ 
+
+}
+#image-7{
+    width: 47vw;
+    border-radius: 0.4rem;
+    
+}
+.gallery-heading{
+    background-color: #000000;
+    color: rgb(241, 38, 11);
+    font-family: Sacramento,cursive;
+    font-size: 5vw;
+    font-weight: 1000;
+    
+    padding-top: 0.5vw;
+    padding-bottom: 0.6vw;
+    text-align: center;
+}
+
 @media screen and (max-width: 1200px) {
     /* Adjust grid properties for smaller screens */
     .profile1 {
     grid-template-columns: 1fr 1fr ;
     }
+    .profile2,.profile3,.profile4,.profile5,.profile6,.profile7{
+        grid-template-columns: 1fr 1fr;
+    }
+
     }
     
     
@@ -154,12 +293,28 @@ button:hover{
     padding: 3vw;
     
     }
+    .profile2,.profile3,.profile4,.profile5, .profile6,.profile7{
+    grid-template-columns: 1fr;
+    margin: 0vw;
+    padding: 3vw; 
+    }
+    
+    
     .text{
         font-size: 2.5vw;
         margin: 3vw;
     }
-    #educ{
-        width: 75vw;
+    .text-2,.text-3{
+        font-size: 2.5vw;
+        margin: 3vw; 
+    }
+    .text-4,.text-5,.text-6,.text-7{
+        font-size: 2.5vw;
+        margin: 3vw; 
+
+    }
+    #educ,#image-6,#image-7{
+        width: 80vw;
         margin: 2vw;
     }
     .prof-button{
