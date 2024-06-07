@@ -1,16 +1,24 @@
 
 body{
-    background-color: aquamarine;
+    
     padding: 0px;
-}.header{
+    height:100%;
+    margin: 0px;
+    
+}
+.container{
+    margin: 0px;
+    padding: 0px;
+}
+.header{
     margin: 0;
     background-image: url('./portfolio images/background\ image.jpg') ;
     background-repeat: no-repeat;
-    background-attachment: fixed;
     width: 100%;
-    
+    overflow: auto;
   
     background-size: cover;
+    background-position: center center;
     margin: 0;
     height: auto;
 }
@@ -79,3 +87,86 @@ button:hover{
 .b2{
     margin-left:2vw;
 }
+.heading{
+    background-color: #ffffff;
+    padding: 6vw;
+    font-size: 1.2vw;
+    text-align: center;
+    color: rgb(241, 38, 11);
+    font-family: Roboto Mono;
+    margin-top: 0px;
+    background-position: static;
+    margin-bottom: 0;
+}
+
+.profile1{
+    margin-top: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1vw;
+    margin-bottom: 2vw;
+    
+    background-color: whitesmoke;
+}
+.prof{
+    display: inline-block;
+}
+.text{
+  
+   
+    padding: 3vw;
+    margin: 0.5vw;
+    font-size:1.5vw;
+    font-family: Roboto Mono;
+    font-weight: 600;
+    text-align: justify;
+    align-items: center;
+    
+}
+.image{
+    margin: 0.5vw;
+    padding: 2vw;
+    align-content: center;
+}
+#educ{
+    border-radius: 0.4rem;
+    width: 52vw;
+}
+
+.prof-button{
+    background-color: rgb(255, 160, 19);
+    color: white;
+    margin-top: 2vw;
+}
+@media screen and (max-width: 1200px) {
+    /* Adjust grid properties for smaller screens */
+    .profile1 {
+    grid-template-columns: 1fr 1fr ;
+    }
+    }
+    
+    
+    @media screen and (max-width: 960px) {
+    /* Adjust grid properties for smaller screens */
+    .profile1 {
+    grid-template-columns: 1fr;
+    margin: 0vw;
+    padding: 3vw;
+    
+    }
+    .text{
+        font-size: 2.5vw;
+        margin: 3vw;
+    }
+    #educ{
+        width: 75vw;
+        margin: 2vw;
+    }
+    .prof-button{
+        font-size: 2.2vw;
+        margin-bottom: 0;
+        margin-top: 3vw;
+    }
+    
+    }
+    
