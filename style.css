@@ -272,6 +272,36 @@ button:hover{
     padding-bottom: 0.6vw;
     text-align: center;
 }
+.gallery-images {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 1vw;  
+    
+  }
+  .gallery-images img {
+    width: 100%;
+    height: auto;
+    margin: 0.7vw;
+    border-radius: 2px;
+    object-fit: cover;
+    
+  }
+  
+  /* Responsive layout - makes a two column-layout instead of four columns */
+  @media screen and (max-width: 800px) {
+    .gallery-images {
+     
+      grid-template-columns: 1fr 1fr 1fr;
+    }
+  }
+  
+  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .gallery-images {
+     
+      grid-template-columns: 1fr 1fr;
+    }
+  }
 
 @media screen and (max-width: 1200px) {
     /* Adjust grid properties for smaller screens */
