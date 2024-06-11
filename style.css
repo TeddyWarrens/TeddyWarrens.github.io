@@ -273,35 +273,86 @@ button:hover{
     text-align: center;
 }
 .gallery-images {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-gap: 1vw;  
+position: relative;
+height: auto;
+width: 99%;
+margin: auto;
+padding: 0.5vw;
+columns: 6;
+column-gap: 0.5vw;
+grid-auto-flow: row dense;
     
   }
-  .gallery-images img {
+  .gallery-images img{
     width: 100%;
     height: auto;
-    margin: 0.7vw;
-    border-radius: 2px;
-    object-fit: cover;
+  }
+.gallery-more{
+
+margin: 1vw;
+text-align: center;
+padding: 1.6vw;
+
+}
+.more{
+    background-color: rgb(224, 150, 39);
+}
+.more a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 2vw;
+}
+#ruler{
+    width: 65%;
+    margin-left: 15vw;
+    border: 0.2px solid rgb(241, 38, 11);
     
-  }
+}
+
+label{
+    font-family: Jost, sans-serif;
+    font-size: 1.9vw;
+    margin: 0.2vw;
+    color: rgb(241, 38, 11);
+    
+}
+.formside{
   
-  /* Responsive layout - makes a two column-layout instead of four columns */
-  @media screen and (max-width: 800px) {
-    .gallery-images {
-     
-      grid-template-columns: 1fr 1fr 1fr;
-    }
-  }
-  
-  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
-  @media screen and (max-width: 600px) {
-    .gallery-images {
-     
-      grid-template-columns: 1fr 1fr;
-    }
-  }
+    background-color: whitesmoke;
+    margin:auto;
+    padding: 0.5vw;
+    width: 100%;
+}
+.formside button{
+    display: inline-block;
+    margin-left: 6vw;
+    margin-top: 1vw;
+    border-radius: 1rem;
+}
+.formside h3{
+    font-family: Jost, sans-serif;
+    font-size: 3vw;
+    margin-left: 3vw;
+    color: rgb(224, 150, 39);
+}
+.formside form{
+    margin-left: 3vw;
+    display: flex;
+}
+.formside input{
+    font-size: 1.2vw;
+    color: rgb(241, 38, 11);
+    padding: 1vw;
+    border-radius: 1rem;
+    border: none;
+    
+    background-color: black;
+    padding-left: 0.9vw;
+    width: 25vw;
+    margin-top: 1vw;
+    margin-bottom: 1vw;
+    box-shadow: 0 3px 7px 0 rgb(78, 48, 2);
+}
 
 @media screen and (max-width: 1200px) {
     /* Adjust grid properties for smaller screens */
@@ -311,6 +362,10 @@ button:hover{
     .profile2,.profile3,.profile4,.profile5,.profile6,.profile7{
         grid-template-columns: 1fr 1fr;
     }
+    .gallery-images{
+        columns: 4;
+    }
+
 
     }
     
@@ -322,6 +377,9 @@ button:hover{
     margin: 0vw;
     padding: 3vw;
     
+    }
+    .gallery-images{
+        grid-template-columns: 1fr 1fr 1fr;
     }
     .profile2,.profile3,.profile4,.profile5, .profile6,.profile7{
     grid-template-columns: 1fr;
@@ -352,6 +410,35 @@ button:hover{
         margin-bottom: 0;
         margin-top: 3vw;
     }
+    .formside{
+        columns: 1;
+        column-gap: 2vw;
+        padding: 2vw;
+        padding-left: 10vw;
+    }
+    .formside form{
+        display: block;
+    }
+    .formside input{
+        margin-top: 2vw;
+        margin-bottom: 2vw;
+    }
+    .formside button{
+        margin-left: 7vw;
+    }
     
     }
     
+    @media screen and (max-width: 640px) {
+        .gallery-images {
+         
+          columns: 3;
+        }
+      }
+
+      @media screen and (max-width: 400px) {
+        .gallery-images {
+         
+          columns: 2;
+        }
+      }
