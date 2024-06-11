@@ -410,21 +410,15 @@ label{
         margin-bottom: 0;
         margin-top: 3vw;
     }
-    .formside{
-        columns: 1;
-        column-gap: 2vw;
-        padding: 2vw;
-        padding-left: 10vw;
-    }
-    .formside form{
-        display: block;
-    }
+   
+
     .formside input{
         margin-top: 2vw;
         margin-bottom: 2vw;
     }
     .formside button{
-        margin-left: 7vw;
+        margin-top: 2vw;
+        margin-left: 5vw;
     }
     
     }
