@@ -26,15 +26,17 @@ body{
     font-family: Sacramento,cursive;
     font-size: 3.5vw;
     font-weight: 1000;
-    padding-left: 30px;
-    padding-top: 10px;
+    padding-left: 1.5vw;
+    margin-bottom: 0;
+    margin-top: 0;
 }
+
 .hello{
     font-family: Jost, sans-serif;
     font-size: 2vw;
     padding-left: 5vw;
     margin-bottom: 0;
-    margin-top: 10px;
+    margin-top: 40px;
     color: white;
 }
 .name{

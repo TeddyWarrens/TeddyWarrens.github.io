@@ -65,8 +65,8 @@ footer {
 
 @media (max-width: 960px) {
     .footer-container {
-        columns: 3;
-        column-gap: 1vw;
+        flex-direction: column;
+       text-align: justify;
     }
 
     .footer-section {
