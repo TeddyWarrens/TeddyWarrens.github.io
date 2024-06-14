@@ -311,50 +311,6 @@ padding: 1.6vw;
     
 }
 
-label{
-    font-family: Jost, sans-serif;
-    font-size: 1.9vw;
-    margin: 0.2vw;
-    color: rgb(241, 38, 11);
-    
-}
-.formside{
-  
-    background-color: whitesmoke;
-    margin:auto;
-    padding: 0.5vw;
-    width: 100%;
-}
-.formside button{
-    display: inline-block;
-    margin-left: 6vw;
-    margin-top: 1vw;
-    border-radius: 1rem;
-}
-.formside h3{
-    font-family: Jost, sans-serif;
-    font-size: 3vw;
-    margin-left: 3vw;
-    color: rgb(224, 150, 39);
-}
-.formside form{
-    margin-left: 3vw;
-    display: flex;
-}
-.formside input{
-    font-size: 1.2vw;
-    color: rgb(241, 38, 11);
-    padding: 1vw;
-    border-radius: 1rem;
-    border: none;
-    
-    background-color: black;
-    padding-left: 0.9vw;
-    width: 25vw;
-    margin-top: 1vw;
-    margin-bottom: 1vw;
-    box-shadow: 0 3px 7px 0 rgb(78, 48, 2);
-}
 
 @media screen and (max-width: 1200px) {
     /* Adjust grid properties for smaller screens */
